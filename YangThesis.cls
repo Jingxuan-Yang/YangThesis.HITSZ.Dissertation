@@ -2,10 +2,10 @@
 %% start of file `YangThesis.cls'.
 %% Copyright 2013-2019 YangLaTeX (yangjingxuan@stu.hit.edu.cn)
 %%
-%% This work may be modified freely available at GitHub
-%%  https://github.com/JingXuan-Yang/YangThesis.HITSZ.Dissertation
+%% This work may be modified freely available at GitHub:
+%% https://github.com/JingXuan-Yang/YangThesis.HITSZ.Dissertation
 %%
-%% Last Modification 2019-09-29
+%% Last Modification 2019-10-30
 %%==============================================
 
 % 开始写类文件
@@ -13,7 +13,7 @@
 \NeedsTeXFormat{LaTeX2e}
 
 % 定义提供的类文件名称以及说明文字
-\ProvidesClass{YangThesis}[2019/09/29 v1.0 YangThesis document class]
+\ProvidesClass{YangThesis}[2019/10/30 v1.1 YangThesis document class]
 
 % Key value format for package options
 \RequirePackage{kvoptions}
@@ -55,11 +55,11 @@
 % 加载book类，A4大小，正文12磅，单面打印
 \LoadClass[12pt,a4paper,openany,oneside]{book}
 
-% 加载支持中文的ctex宏包
-\RequirePackage[UTF8,space=auto,scheme=plain]{ctex}
-
 % 使用xelatex编译mtpro2宏包必须加载此宏包
 \RequirePackage{etex}
+
+% 加载支持中文的ctex宏包
+\RequirePackage[UTF8,space=auto,scheme=plain]{ctex}
 
 % 正文和数学字体设置
 \RequirePackage[T1]{fontenc}
@@ -390,7 +390,7 @@
 % 图表标题设置，字号为small，分割符为空格
 \RequirePackage[font=small,labelsep=quad]{caption} 
 
-% 标题与图表的建系为3pt
+% 标题与图表的间距为3pt
 \captionsetup[table]{skip=3pt}
 \captionsetup[figure]{skip=10pt}
 
